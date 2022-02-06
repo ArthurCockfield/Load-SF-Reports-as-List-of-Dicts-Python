@@ -5,6 +5,7 @@ from io import StringIO
 username = 'enter_here'
 password = 'enter_here'
 security_token = 'enter_here'
+sf_org = 'https://change_to_your_org.lightning.force.com/'
 sf = SalesforceAPI(username, password, security_token)
 
 report_id = 'enter_here'
@@ -26,4 +27,4 @@ def Load_SF_Reports(sf, sf_org, report_id, export_params = '?isdtp=p1&export=1&e
 
 
 
-data_sample =  Load_SF_Reports(sf, report_id)
+data_sample =  Load_SF_Reports(sf, sf_org, report_id)
