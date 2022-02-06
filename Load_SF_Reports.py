@@ -9,8 +9,8 @@ sf = SalesforceAPI(username, password, security_token)
 
 report_id = 'enter_here'
 
-def Load_SF_Reports(sf, report_id, export_params = '?isdtp=p1&export=1&enc=UTF-8&xf=csv') :
-    """ ARG: SF_org (default OneLocal), report ID from Salesforce, export parameters
+def Load_SF_Reports(sf, sf_org, report_id, export_params = '?isdtp=p1&export=1&enc=UTF-8&xf=csv') :
+    """ ARG: sf object, SF_org, report ID from Salesforce, export parameters
         Returns: list of dictionaries of the report
     """
     
