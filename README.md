@@ -1,5 +1,6 @@
 # Load-SF-Reports-As-List-of-Dicts-Python
 **Summary**
+
 Loads a Salesforce Report as a list of dictionaries in Python. The program takes any Salesforce report and loads the data as a list of dictionaries, where the key is the field and the value is the value in the row. Think of each dictionary in the the list as a single row of the original report.
  
  
