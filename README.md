@@ -5,6 +5,7 @@ Loads a Salesforce Report as a list of dictionaries in Python. The program takes
  
  
  **Windows Installation**
+ 
  You will need to install the following packages:
  - Pandas
  - Simple_Salesforce
